@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // 指定 ECMAScript 目标版本
+    "target": "ES2020",
+    // 指定生成哪个模块系统代码
+    "module": "commonjs",
+    // 启用所有严格类型检查选项
+    "strict": true,
+    // 允许从没有设置默认导出的模块中默认导入
+    "esModuleInterop": true,
+    // 解析非相对模块名的基准目录
+    "baseUrl": "./",
+    // 编译后的输出目录
+    "outDir": "./dist",
+    // 源码目录
+    "rootDir": "./src",
+    // 允许 JavaScript 文件的编译
+    "allowJs": true,
+    // 生成源码映射文件，用于调试
+    "sourceMap": true,
+    // 启用装饰器
+    "experimentalDecorators": true,
+    // 跳过库文件检查
+    "skipLibCheck": true,
+    // 允许导入 json 文件
+    "resolveJsonModule": true
+  },
+  // 包含编译的文件
+  "include": [
+    "src/**/*"
+  ],
+  // 排除编译的文件
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
